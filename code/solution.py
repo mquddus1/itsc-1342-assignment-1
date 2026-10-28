@@ -1,7 +1,6 @@
-
 # Mohammed Abdul Quddus - Assignment 1
 
-def verify_soc_access(username, password, clearance_level):
+def verify_access(username, password, clearance_level):
     if username != "soc_admin" or password != "S3cur3_P@ss":
         return "INTRUSION_DETECTED"
     elif clearance_level >= 5:
